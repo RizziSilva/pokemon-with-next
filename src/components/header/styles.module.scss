@@ -1,0 +1,30 @@
+.container-header {
+  display: flex;
+  height: 100px;
+  width: 100%;
+  align-items: center;
+  box-shadow: 0 -16px 30px black;
+  background-color: white;
+
+  > .container-logo {
+    width: 20%;
+    height: 80%;
+    position: relative;
+    cursor: pointer;
+  }
+
+  > .container-routes {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    > .route {
+      font-size: 18px;
+      font-weight: 500;
+      &:hover {
+        color: blue;
+      }
+    }
+  }
+}
