@@ -1,0 +1,17 @@
+.container-message {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 100px;
+  width: 400px;
+
+  > .message {
+    font-size: 20px;
+    color: black;
+  
+    > .link {
+      color: blue;
+    }
+  }  
+}

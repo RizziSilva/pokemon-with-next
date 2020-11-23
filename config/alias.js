@@ -10,4 +10,5 @@ module.exports = {
   'app-constants': resolveApp('src/constants'),
   'app-services': resolveApp('src/services'),
   'app-utils': resolveApp('src/utils'),
+  'app-pages': resolveApp('src/pages'),
 }
