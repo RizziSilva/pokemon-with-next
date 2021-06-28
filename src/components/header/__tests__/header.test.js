@@ -17,7 +17,7 @@ describe('Header Tests', () => {
       expect(elementIsFromHeader).toBe(true)
     })
 
-    expect(headerOptionsElements).toHaveLength(2)
+    expect(headerOptionsElements).toHaveLength(HEADER_ROUTES.length)
   })
 
   it('Header options has correct links', () => {
